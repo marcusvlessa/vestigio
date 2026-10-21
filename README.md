@@ -96,3 +96,7 @@ O painel procura versões novas sozinho e baixa em segundo plano. A versão ante
 ## Desenvolvedor
 
 Marcus ([@marcusvlessa](https://github.com/marcusvlessa)) · [Saiba mais sobre o desenvolvedor](https://www.linkedin.com/in/marcuslessa-ia/)
+
+## Licença
+
+GPLv3, a mesma do IPED.
