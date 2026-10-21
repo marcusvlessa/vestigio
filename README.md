@@ -7,7 +7,8 @@
     <a href="#instalar">Instalar</a> ·
     <a href="#o-que-ele-faz">O que ele faz</a> ·
     <a href="#autorização-de-uso">Autorização de uso</a> ·
-    <a href="#desenvolvedor">Desenvolvedor</a>
+    <a href="#desenvolvedor">Desenvolvedor</a> ·
+    <a href="https://github.com/sponsors/marcusvlessa">Apoiar</a>
   </p>
   <p>
     <a href="https://github.com/marcusvlessa/vestigio/releases/latest"><img src="https://img.shields.io/github/v/release/marcusvlessa/vestigio?label=vers%C3%A3o" alt="Versão mais nova" /></a>
@@ -15,6 +16,7 @@
     <img src="https://img.shields.io/badge/Windows%20%7C%20Linux-0d2f57" alt="Windows e Linux" />
     <img src="https://img.shields.io/badge/IPED-4.3.1-c9a227" alt="IPED 4.3.1" />
     <img src="https://img.shields.io/badge/licen%C3%A7a-GPLv3-blue" alt="GPLv3" />
+    <a href="https://github.com/sponsors/marcusvlessa"><img src="https://img.shields.io/github/sponsors/marcusvlessa?label=apoiar&logo=githubsponsors&color=ea4aaa" alt="Apoiar no GitHub Sponsors" /></a>
   </p>
 </div>
 
@@ -97,6 +99,10 @@ O painel procura versões novas sozinho e baixa em segundo plano. A versão ante
 ## Desenvolvedor
 
 Marcus ([@marcusvlessa](https://github.com/marcusvlessa)) · [Saiba mais sobre o desenvolvedor](https://www.linkedin.com/in/marcuslessa-ia/)
+
+## Apoie o projeto
+
+Se o Vestígio ajuda no seu trabalho, você pode apoiar pelo [GitHub Sponsors](https://github.com/sponsors/marcusvlessa) para manter o projeto atualizado e funcionando.
 
 ## Licença
 
