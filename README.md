@@ -14,6 +14,7 @@
     <a href="https://github.com/marcusvlessa/vestigio/releases"><img src="https://img.shields.io/github/downloads/marcusvlessa/vestigio/total?label=downloads" alt="Downloads" /></a>
     <img src="https://img.shields.io/badge/Windows%20%7C%20Linux-0d2f57" alt="Windows e Linux" />
     <img src="https://img.shields.io/badge/IPED-4.3.1-c9a227" alt="IPED 4.3.1" />
+    <img src="https://img.shields.io/badge/licen%C3%A7a-GPLv3-blue" alt="GPLv3" />
   </p>
 </div>
 
