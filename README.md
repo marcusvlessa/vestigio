@@ -339,7 +339,7 @@ de cada provedor para esse CSV são a fase 3. Exemplo com dados fictícios:
 
 ## Autorização de uso
 
-O Vestígio só funciona nas máquinas que eu autorizo, e cada versão nova precisa de uma renovação.
+O Vestígio só funciona nas máquinas autorizadas, e cada versão nova precisa de uma renovação.
 
 1. Na primeira vez, o painel abre só a tela **Autorização de uso**: o analista preenche nome, instituição e contato e clica em **Gerar pedido**. Sai um código `VPED-…` com esses dados, a versão e uma identificação da máquina (um resumo que não revela nada dela). Ele me envia o código como preferir (e-mail, mensagem, ofício).
 2. Eu colo o pedido na tela **Autorizações** do meu painel (ela só aparece na máquina que tem a chave privada) e devolvo um código `VAUT-…`, assinado com Ed25519. Posso dar validade em dias e liberar a série toda (ex.: 0.6.1, 0.6.2) em vez de só a versão pedida.
@@ -348,7 +348,6 @@ O Vestígio só funciona nas máquinas que eu autorizo, e cada versão nova prec
 
 A chave pública fica em `instalador/iped_pcba/autorizacao.json`; a privada fica só na minha máquina, em `~/.iped-pcba/autorizacao-emissor/chave-privada.txt`. Outra instituição que use o Vestígio pode gerar a própria chave com `python -m iped_pcba.autorizacao gerar-chave` e trocar a pública no `autorizacao.json`. Sem chave pública, ou numa cópia de desenvolvimento (git), nada é exigido.
 
-**O que isto não impede:** o código é Python legível, então quem tem o pacote consegue alterar o programa para pular a verificação, e uma cópia antiga continua funcionando na versão para a qual foi autorizada. É um controle de quem recebe e atualiza o Vestígio, não uma trava contra quem quer burlar.
 
 ## O que a configuração faz
 
