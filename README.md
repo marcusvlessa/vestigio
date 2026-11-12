@@ -116,6 +116,8 @@ O Vestígio só funciona em máquinas autorizadas, e cada versão nova precisa d
 
 Quando sai uma versão nova, o painel continua funcionando na atual e mostra **Gerar pedido de renovação**. A nova versão é instalada depois que a renovação é ativada.
 
+**Uso da pesquisa.** Como parte do estudo de doutorado, o painel envia sozinho ao desenvolvedor, ao abrir e a cada hora de uso, um resumo de uso desta máquina: nome, instituição, identificação da máquina, versão, total de aberturas, datas de primeiro e último uso e sistema. Nunca sai dado de caso ou evidência. O próprio painel mostra, na tela inicial, o que é enviado.
+
 ## Atualizações
 
 O painel procura versões novas sozinho e baixa em segundo plano. A versão anterior fica guardada numa pasta ao lado, caso seja preciso voltar.
