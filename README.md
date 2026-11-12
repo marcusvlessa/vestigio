@@ -1,11 +1,13 @@
 <div align="center">
-  <img src="docs/media/logo.png" alt="Vestígio" width="96" />
-  <h1>Vestígio</h1>
+  <img src="docs/media/logo-lite.png" alt="Vestígio LITE" width="96" />
+  <h1>Vestígio LITE</h1>
+  <p><em>Versão LITE de um projeto em parceria com a Universidade Federal da Bahia (UFBA), parte de um estudo de doutorado em Ciência da Computação (PGCOMP).</em></p>
   <p><strong>Assistente de análise forense para o IPED: instala, configura, analisa com IA local auditada e entrega o relatório no modelo da sua instituição.</strong></p>
   <p>
     <a href="https://github.com/marcusvlessa/vestigio/releases/latest">Baixar</a> ·
     <a href="#instalar">Instalar</a> ·
     <a href="#o-que-ele-faz">O que ele faz</a> ·
+    <a href="#versão-lite-e-a-pesquisa">Versão LITE</a> ·
     <a href="#autorização-de-uso">Autorização de uso</a> ·
     <a href="#desenvolvedor">Desenvolvedor</a> ·
     <a href="https://github.com/sponsors/marcusvlessa">Apoiar</a>
@@ -13,6 +15,8 @@
   <p>
     <a href="https://github.com/marcusvlessa/vestigio/releases/latest"><img src="https://img.shields.io/github/v/release/marcusvlessa/vestigio?label=vers%C3%A3o" alt="Versão mais nova" /></a>
     <a href="https://github.com/marcusvlessa/vestigio/releases"><img src="https://img.shields.io/github/downloads/marcusvlessa/vestigio/total?label=downloads" alt="Downloads" /></a>
+    <img src="https://img.shields.io/badge/vers%C3%A3o-LITE-1f9e94" alt="Versão LITE" />
+    <img src="https://img.shields.io/badge/pesquisa-UFBA%20%C2%B7%20PGCOMP-0d2f57" alt="Pesquisa UFBA PGCOMP" />
     <img src="https://img.shields.io/badge/Windows%20%7C%20Linux-0d2f57" alt="Windows e Linux" />
     <img src="https://img.shields.io/badge/IPED-4.3.1-c9a227" alt="IPED 4.3.1" />
     <img src="https://img.shields.io/badge/licen%C3%A7a-GPLv3-blue" alt="GPLv3" />
@@ -23,6 +27,26 @@
 ![Um passeio pelo painel: visão do caso, rede de vínculos, análise financeira, assistente de IA e relatório técnico](docs/media/vestigio.gif)
 
 <p align="center"><sub>Todos os dados das telas são fictícios.</sub></p>
+
+## Versão LITE e a pesquisa
+
+Esta é a **versão LITE** do Vestígio: a linha de base pública de um projeto desenvolvido em parceria
+com a **Universidade Federal da Bahia (UFBA)**, como parte de um estudo de doutorado em Ciência da
+Computação (PGCOMP). Ela funciona por completo e é a referência com que a pesquisa compara os
+resultados. A versão completa, em desenvolvimento no doutorado, será avaliada em pilotos nas delegacias.
+
+| | **LITE (esta página)** | **Versão completa (em pesquisa)** |
+| :--- | :--- | :--- |
+| Papel no estudo | linha de base: o trabalho de hoje com o painel e a IA local | intervenção avaliada nos pilotos |
+| IA | consulta o caso pelo MCP, com auditoria; qualidade ainda não medida | IA medida (acurácia, alucinação, tempo) em casos sintéticos |
+| Afirmações da IA | o analista confere | cada afirmação verificada contra o item do IPED que a sustenta |
+| Instruções escondidas no material apreendido | aviso ao analista | defesa automática contra injeção pela evidência |
+| Proveniência | registro encadeado por hash, local | proveniência forte, ancorada fora da máquina |
+
+Novidades desta versão LITE: o passo **Configurar a máquina** instala tudo o que falta, incluindo o
+CUDA da placa NVIDIA para o Whisper; as janelas de **Procurar** abrem sempre por cima; e o
+**Assistente de IA** coloca o caminho do caso e da pasta de contexto na pergunta copiada para o
+Claude, o Antigravity ou o Hermes.
 
 ## Do vestígio ao relatório
 
