@@ -1,0 +1,58 @@
+{
+ "atualizado": "2026-11-16",
+ "niveis": {
+  "rapido": "tarefa simples e repetitiva: triagem, listar, marcar, classificar",
+  "equilibrado": "análise comum de um tema, com leitura de vários itens",
+  "forte": "cruzamento de muitas fontes, financeiro, cronologia longa, redação do relatório",
+  "maximo": "raciocínio mais exigente: caso muito grande, contradições, vários anexos de contexto"
+ },
+ "agentes": {
+  "triagem": "rapido",
+  "marcador": "rapido",
+  "audios": "equilibrado",
+  "localizacao": "equilibrado",
+  "midias": "equilibrado",
+  "comunicacoes": "forte",
+  "linha_tempo": "forte",
+  "financeiro": "forte",
+  "redator": "forte",
+  "skill:analise-audio": "equilibrado",
+  "skill:analise-imagens": "equilibrado",
+  "skill:analise-geolocalizacao": "equilibrado",
+  "skill:analise-midias-x-logs": "forte",
+  "skill:analise-financeira": "forte",
+  "skill:analise-forense-completa": "maximo"
+ },
+ "destinos": {
+  "claude": {
+   "nome": "Claude",
+   "fonte": "https://platform.claude.com/docs/en/about-claude/models/overview",
+   "modelos": {
+    "rapido": {"nome": "Claude Haiku 5.5", "id": "claude-haiku-5-5", "nota": "o mais rápido e barato"},
+    "equilibrado": {"nome": "Claude Sonnet 5.5", "id": "claude-sonnet-5-5", "nota": "melhor relação entre velocidade e qualidade"},
+    "forte": {"nome": "Claude Opus 5.5", "id": "claude-opus-5-5", "nota": "trabalho longo de análise e redação"},
+    "maximo": {"nome": "Claude Fable 5.2", "id": "claude-fable-5-2", "nota": "raciocínio mais exigente; custa o dobro do Opus"}
+   }
+  },
+  "antigravity": {
+   "nome": "Antigravity",
+   "fonte": "https://antigravity.google/docs/changelog/",
+   "modelos": {
+    "rapido": {"nome": "Gemini 3.8 Flash", "id": "", "nota": "disponível em todos os planos, inclusive o gratuito"},
+    "equilibrado": {"nome": "Gemini 4 Argon", "id": "", "nota": "planos pagos (Pro, Ultra, empresa)"},
+    "forte": {"nome": "Gemini 4 Carbon", "id": "", "nota": "planos Ultra e empresa; sem ele, use o Argon"},
+    "maximo": {"nome": "Gemini 4 Carbon", "id": "", "nota": "planos Ultra e empresa; sem ele, use o Argon"}
+   }
+  },
+  "hermes": {
+   "nome": "Hermes",
+   "fonte": "",
+   "modelos": {
+    "rapido": {"nome": "o modelo já configurado no Hermes", "id": "", "nota": "o Hermes usa o provedor que você configurou"},
+    "equilibrado": {"nome": "o modelo já configurado no Hermes", "id": "", "nota": "o Hermes usa o provedor que você configurou"},
+    "forte": {"nome": "o modelo mais forte do seu provedor", "id": "", "nota": "troque com /model no Hermes ou defina em Preferências"},
+    "maximo": {"nome": "o modelo mais forte do seu provedor", "id": "", "nota": "troque com /model no Hermes ou defina em Preferências"}
+   }
+  }
+ }
+}
